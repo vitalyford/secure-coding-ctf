@@ -1,0 +1,133 @@
+Feb 27 19:32:04 ip-172-31-91-108 useradd[1025]: new group: name=ubuntu, GID=1000
+Feb 27 19:32:04 ip-172-31-91-108 useradd[1025]: new user: name=ubuntu, UID=1000, GID=1000, home=/home/ubuntu, shell=/bin/bash
+Feb 27 19:32:04 ip-172-31-91-108 useradd[1025]: add 'ubuntu' to group 'adm'
+Feb 27 19:32:04 ip-172-31-91-108 useradd[1025]: add 'ubuntu' to group 'dialout'
+Feb 27 19:32:04 ip-172-31-91-108 useradd[1025]: add 'ubuntu' to group 'cdrom'
+Feb 27 19:32:04 ip-172-31-91-108 useradd[1025]: add 'ubuntu' to group 'floppy'
+Feb 27 19:32:04 ip-172-31-91-108 useradd[1025]: add 'ubuntu' to group 'sudo'
+Feb 27 19:32:04 ip-172-31-91-108 useradd[1025]: add 'ubuntu' to group 'audio'
+Feb 27 19:32:04 ip-172-31-91-108 useradd[1025]: add 'ubuntu' to group 'dip'
+Feb 27 19:32:04 ip-172-31-91-108 useradd[1025]: add 'ubuntu' to group 'video'
+Feb 27 19:32:04 ip-172-31-91-108 useradd[1025]: add 'ubuntu' to group 'plugdev'
+Feb 27 19:32:04 ip-172-31-91-108 useradd[1025]: add 'ubuntu' to group 'netdev'
+Feb 27 19:32:04 ip-172-31-91-108 useradd[1025]: add 'ubuntu' to group 'lxd'
+Feb 27 19:32:04 ip-172-31-91-108 useradd[1025]: add 'ubuntu' to shadow group 'adm'
+Feb 27 19:32:04 ip-172-31-91-108 useradd[1025]: add 'ubuntu' to shadow group 'dialout'
+Feb 27 19:32:04 ip-172-31-91-108 useradd[1025]: add 'ubuntu' to shadow group 'cdrom'
+Feb 27 19:32:04 ip-172-31-91-108 useradd[1025]: add 'ubuntu' to shadow group 'floppy'
+Feb 27 19:32:04 ip-172-31-91-108 useradd[1025]: add 'ubuntu' to shadow group 'sudo'
+Feb 27 19:32:04 ip-172-31-91-108 useradd[1025]: add 'ubuntu' to shadow group 'audio'
+Feb 27 19:32:04 ip-172-31-91-108 useradd[1025]: add 'ubuntu' to shadow group 'dip'
+Feb 27 19:32:04 ip-172-31-91-108 useradd[1025]: add 'ubuntu' to shadow group 'video'
+Feb 27 19:32:04 ip-172-31-91-108 useradd[1025]: add 'ubuntu' to shadow group 'plugdev'
+Feb 27 19:32:04 ip-172-31-91-108 useradd[1025]: add 'ubuntu' to shadow group 'netdev'
+Feb 27 19:32:04 ip-172-31-91-108 useradd[1025]: add 'ubuntu' to shadow group 'lxd'
+Feb 27 19:32:04 ip-172-31-91-108 useradd[1025]: add 'beatrix' to group 'adm'
+Feb 27 19:32:04 ip-172-31-91-108 useradd[1025]: add 'beatrix' to group 'dialout'
+Feb 27 19:32:04 ip-172-31-91-108 useradd[1025]: add 'beatrix' to group 'cdrom'
+Feb 27 19:32:04 ip-172-31-91-108 useradd[1025]: add 'beatrix' to group 'floppy'
+Feb 27 19:32:04 ip-172-31-91-108 useradd[1025]: add 'beatrix' to group 'sudo'
+Feb 27 19:32:04 ip-172-31-91-108 useradd[1025]: add 'beatrix' to group 'audio'
+Feb 27 19:32:04 ip-172-31-91-108 useradd[1025]: add 'beatrix' to group 'dip'
+Feb 27 19:32:04 ip-172-31-91-108 useradd[1025]: add 'beatrix' to group 'video'
+Feb 27 19:32:04 ip-172-31-91-108 useradd[1025]: add 'beatrix' to group 'plugdev'
+Feb 27 19:32:04 ip-172-31-91-108 useradd[1025]: add 'beatrix' to group 'root'
+Feb 27 19:32:04 ip-172-31-91-108 useradd[1025]: add 'beatrix' to group 'netdev'
+Feb 27 19:32:04 ip-172-31-91-108 useradd[1025]: add 'beatrix' to group 'lxd'
+Feb 27 19:32:04 ip-172-31-91-108 useradd[1025]: add 'beatrix' to shadow group 'adm'
+Feb 27 19:32:04 ip-172-31-91-108 useradd[1025]: add 'beatrix' to shadow group 'dialout'
+Feb 27 19:32:04 ip-172-31-91-108 useradd[1025]: add 'beatrix' to shadow group 'cdrom'
+Feb 27 19:32:04 ip-172-31-91-108 useradd[1025]: add 'beatrix' to shadow group 'floppy'
+Feb 27 19:32:04 ip-172-31-91-108 useradd[1025]: add 'beatrix' to shadow group 'sudo'
+Feb 27 19:32:04 ip-172-31-91-108 useradd[1025]: add 'beatrix' to shadow group 'audio'
+Feb 27 19:32:04 ip-172-31-91-108 useradd[1025]: add 'beatrix' to shadow group 'dip'
+Feb 27 19:32:04 ip-172-31-91-108 useradd[1025]: add 'beatrix' to shadow group 'video'
+Feb 27 19:32:04 ip-172-31-91-108 useradd[1025]: add 'beatrix' to shadow group 'plugdev'
+Feb 27 19:32:04 ip-172-31-91-108 useradd[1025]: add 'beatrix' to shadow group 'root'
+Feb 27 19:32:04 ip-172-31-91-108 useradd[1025]: add 'beatrix' to shadow group 'netdev'
+Feb 27 19:32:04 ip-172-31-91-108 useradd[1025]: add 'beatrix' to shadow group 'lxd'
+Feb 27 19:32:04 ip-172-31-91-108 passwd[1030]: password for 'ubuntu' changed by 'root'
+Feb 27 19:32:04 ip-172-31-91-108 passwd[1030]: password for 'beatrix' changed by 'root'
+Feb 27 19:32:05 ip-172-31-91-108 systemd-logind[1082]: Watching system buttons on /dev/input/event0 (Power Button)
+Feb 27 19:32:05 ip-172-31-91-108 systemd-logind[1082]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Feb 27 19:32:05 ip-172-31-91-108 systemd-logind[1082]: New seat seat0.
+Feb 27 19:32:05 ip-172-31-91-108 sshd[1269]: Server listening on 0.0.0.0 port 22.
+Feb 27 19:32:05 ip-172-31-91-108 sshd[1269]: Server listening on :: port 22.
+Feb 27 19:34:17 ip-172-31-91-108 sshd[1759]: Accepted publickey for ubuntu from 194.59.251.9 port 33428 ssh2: RSA SHA256:PbhFbs5CykylDy6maJM0EHxSyaSdQJyuOPNDGRJRCm4
+Feb 27 19:34:17 ip-172-31-91-108 sshd[1759]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+Mar  1 00:15:01 ip-172-31-91-108 CRON[25728]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar  1 00:15:01 ip-172-31-91-108 CRON[25728]: pam_unix(cron:session): session closed for user root
+Mar  1 00:17:01 ip-172-31-91-108 CRON[25733]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar  1 00:17:01 ip-172-31-91-108 CRON[25733]: pam_unix(cron:session): session closed for user root
+Mar  1 00:25:01 ip-172-31-91-108 CRON[25744]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar  1 00:25:01 ip-172-31-91-108 CRON[25744]: pam_unix(cron:session): session closed for user root
+Mar  1 00:31:21 ip-172-31-91-108 sshd[25766]: fatal: Unable to negotiate with 92.246.76.90 port 64672: no matching cipher found. Their offer: aes256-cbc,rijndael-cbc@lysator.liu.se,aes192-cbc,aes128-cbc,arcfour128,arcfour,3des-cbc,none [preauth]
+Mar  1 00:35:01 ip-172-31-91-108 CRON[25771]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar  1 00:35:01 ip-172-31-91-108 CRON[25771]: pam_unix(cron:session): session closed for user root
+Mar  1 00:45:01 ip-172-31-91-108 CRON[25784]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar  1 00:45:01 ip-172-31-91-108 CRON[25784]: pam_unix(cron:session): session closed for user root
+Mar  1 00:55:01 ip-172-31-91-108 CRON[25809]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar  1 00:55:01 ip-172-31-91-108 CRON[25809]: pam_unix(cron:session): session closed for user root
+Mar  1 01:01:28 ip-172-31-91-108 sshd[25819]: Connection reset by 191.96.110.17 port 42949 [preauth]
+Mar  1 01:05:01 ip-172-31-91-108 CRON[25824]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar  1 01:05:01 ip-172-31-91-108 CRON[25824]: pam_unix(cron:session): session closed for user root
+Mar  1 01:10:28 ip-172-31-91-108 sshd[25833]: Accepted publickey for ubuntu from 194.59.251.20 port 18676 ssh2: RSA SHA256:PbhFbs5CykylDy6maJM0EHxSyaSdQJyuOPNDGRJRCm4
+Mar  1 01:10:28 ip-172-31-91-108 sshd[25833]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+Mar  1 01:10:28 ip-172-31-91-108 systemd-logind[1173]: New session 223 of user ubuntu.
+Mar  1 01:11:00 ip-172-31-91-108 sshd[25892]: Received disconnect from 194.59.251.20 port 18676:11: disconnected by user
+Mar  1 01:11:00 ip-172-31-91-108 sshd[25892]: Disconnected from 194.59.251.20 port 18676
+Mar  1 01:11:00 ip-172-31-91-108 sshd[25833]: pam_unix(sshd:session): session closed for user ubuntu
+Mar  1 01:11:00 ip-172-31-91-108 systemd-logind[1173]: Removed session 223.
+Mar  1 01:15:01 ip-172-31-91-108 CRON[25935]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar  1 01:15:01 ip-172-31-91-108 CRON[25935]: pam_unix(cron:session): session closed for user root
+Mar  1 01:17:01 ip-172-31-91-108 CRON[25940]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar  1 01:17:01 ip-172-31-91-108 CRON[25940]: pam_unix(cron:session): session closed for user root
+Mar  1 01:25:01 ip-172-31-91-108 CRON[26326]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar  1 01:25:01 ip-172-31-91-108 CRON[26326]: pam_unix(cron:session): session closed for user root
+Mar  1 01:27:00 ip-172-31-91-108 passwd[1030]: password for 'beatrix' is do-you-want-to-build-a-hack-land?
+Mar  1 01:31:00 ip-172-31-91-108 sshd[26335]: Invalid user pi from 188.232.221.141
+Mar  1 01:31:00 ip-172-31-91-108 sshd[26335]: input_userauth_request: invalid user pi [preauth]
+Mar  1 01:31:00 ip-172-31-91-108 sshd[26335]: Connection closed by 188.232.221.141 port 54832 [preauth]
+Mar  1 01:31:00 ip-172-31-91-108 sshd[26337]: Invalid user pi from 188.232.221.141
+Mar  1 01:31:00 ip-172-31-91-108 sshd[26337]: input_userauth_request: invalid user pi [preauth]
+Mar  1 01:31:00 ip-172-31-91-108 sshd[26337]: Connection closed by 188.232.221.141 port 54842 [preauth]
+Mar  1 01:31:55 ip-172-31-91-108 sshd[26340]: Invalid user admin from 186.6.175.248
+Mar  1 01:31:55 ip-172-31-91-108 sshd[26340]: input_userauth_request: invalid user admin [preauth]
+Mar  1 01:31:56 ip-172-31-91-108 sshd[26340]: Connection closed by 186.6.175.248 port 43584 [preauth]
+Mar  1 15:55:05 ip-172-31-91-108 sshd[28602]: pam_unix(sshd:session): session closed for user ubuntu
+Mar  1 15:55:05 ip-172-31-91-108 systemd-logind[1173]: Removed session 327.
+Mar  1 16:04:15 ip-172-31-91-108 sshd[29437]: Did not receive identification string from 80.14.244.205
+Mar  1 16:05:01 ip-172-31-91-108 CRON[29440]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar  1 16:05:01 ip-172-31-91-108 CRON[29440]: pam_unix(cron:session): session closed for user root
+Mar  1 16:09:49 ip-172-31-91-108 sshd[29481]: Connection closed by 80.14.244.205 port 32965 [preauth]
+Mar  1 16:15:01 ip-172-31-91-108 CRON[29488]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar  1 16:15:01 ip-172-31-91-108 CRON[29488]: pam_unix(cron:session): session closed for user root
+Mar  1 16:17:01 ip-172-31-91-108 CRON[29505]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar  1 16:17:01 ip-172-31-91-108 CRON[29505]: pam_unix(cron:session): session closed for user root
+Mar  1 16:17:17 ip-172-31-91-108 sshd[29508]: Connection closed by 80.14.244.205 port 35497 [preauth]
+Mar  1 16:20:46 ip-172-31-91-108 sshd[29513]: Connection closed by 80.14.244.205 port 35951 [preauth]
+Mar  1 16:24:14 ip-172-31-91-108 sshd[29519]: Connection closed by 80.14.244.205 port 36416 [preauth]
+Mar  1 16:25:01 ip-172-31-91-108 CRON[29522]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar  1 16:25:01 ip-172-31-91-108 CRON[29522]: pam_unix(cron:session): session closed for user root
+Mar  1 16:27:43 ip-172-31-91-108 sshd[29527]: Connection closed by 80.14.244.205 port 36878 [preauth]
+Mar  1 16:31:11 ip-172-31-91-108 sshd[29533]: Connection closed by 80.14.244.205 port 37311 [preauth]
+Mar  1 16:34:38 ip-172-31-91-108 sshd[29538]: Connection closed by 80.14.244.205 port 37775 [preauth]
+Mar  1 16:35:01 ip-172-31-91-108 CRON[29541]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar  1 16:35:01 ip-172-31-91-108 CRON[29541]: pam_unix(cron:session): session closed for user root
+Mar  1 16:38:06 ip-172-31-91-108 sshd[29547]: Connection closed by 80.14.244.205 port 38233 [preauth]
+Mar  1 16:41:35 ip-172-31-91-108 sshd[29552]: Connection closed by 80.14.244.205 port 38687 [preauth]
+Mar  1 16:43:32 ip-172-31-91-108 sshd[29568]: Accepted publickey for ubuntu from 194.59.251.27 port 35458 ssh2: RSA SHA256:PbhFbs5CykylDy6maJM0EHxSyaSdQJyuOPNDGRJRCm4
+Mar  1 16:43:32 ip-172-31-91-108 sshd[29568]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+Mar  1 16:43:32 ip-172-31-91-108 systemd-logind[1173]: New session 342 of user ubuntu.
+Mar  1 16:45:01 ip-172-31-91-108 CRON[29668]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar  1 16:45:01 ip-172-31-91-108 CRON[29668]: pam_unix(cron:session): session closed for user root
+Mar  1 16:45:03 ip-172-31-91-108 sshd[29666]: Connection closed by 80.14.244.205 port 39156 [preauth]
+Mar  1 16:48:32 ip-172-31-91-108 sshd[29674]: Connection closed by 80.14.244.205 port 39611 [preauth]
+Mar  1 16:52:01 ip-172-31-91-108 sshd[29680]: Connection closed by 80.14.244.205 port 40069 [preauth]
+Mar  1 16:55:01 ip-172-31-91-108 CRON[29685]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar  1 16:55:01 ip-172-31-91-108 CRON[29685]: pam_unix(cron:session): session closed for user root
+Mar  1 17:05:01 ip-172-31-91-108 CRON[29704]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar  1 17:05:01 ip-172-31-91-108 CRON[29704]: pam_unix(cron:session): session closed for user root
+Mar  1 17:06:12 ip-172-31-91-108 sshd[29720]: Accepted publickey for ubuntu from 194.59.251.29 port 36744 ssh2: RSA SHA256:PbhFbs5CykylDy6maJM0EHxSyaSdQJyuOPNDGRJRCm4
+Mar  1 17:06:12 ip-172-31-91-108 sshd[29720]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+Mar  1 17:06:12 ip-172-31-91-108 systemd-logind[1173]: New session 346 of user ubuntu.

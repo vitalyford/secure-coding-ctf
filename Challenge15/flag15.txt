@@ -1,0 +1,1 @@
+Like the AES initialization vector in 7-z archive software that was not correctly generated which allows attackers to easily guess that vector: https://threadreaderapp.com/thread/1087848040583626753.html

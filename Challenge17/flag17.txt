@@ -1,0 +1,3 @@
+Revealing sensitive data by making logs publicly available. Never do this in production, pretty dangerous information to give out to everyone.
+
+Here is your flag: kjhsfi7678sdhfkhsd

@@ -1,0 +1,3 @@
+Leaving default settings in production.
+
+Haveibeenpwned allows you to not only check for the leaked passwords and emails, but also to provide API for testing user passwords prior to their registration.
