@@ -30,7 +30,7 @@ class HTTPHandler(BaseHTTPRequestHandler):
         get_params = urlparse.urlparse(path) # read the GET parameters from the URL that user requested
 
         # generate the output to show to the user
-        current_output = '''<h3>Challenge 18</h3><p>{}</p>'''.format(output)
+        current_output = '''<h3>Challenge 19</h3><p>{}</p>'''.format(output)
 
         # make the HTML page to show the user and insert current_output there
         content = ''.join(open('index.html', 'r')).replace('CONTENT_PLACEMENT', current_output)
