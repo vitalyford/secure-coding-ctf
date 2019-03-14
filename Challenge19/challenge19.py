@@ -12,8 +12,10 @@ PORT = 7009
 challenge_file = open('flag19.txt', 'r')  # open the file to read
 challenge_data = challenge_file.readlines()  # stores a list of lines from the file
 
-username = 'wingsup'
-password = 'equivocate'
+usernameANDpassword_file = open('usernameANDpassword.txt', 'r')
+creds_data = usernameANDpassword_file.readlines()
+username = creds_data[0]
+password = creds_data[1]
 
 # create an HTTP handler based on the existing BaseHTTPRequestHandler
 class HTTPHandler(BaseHTTPRequestHandler):
