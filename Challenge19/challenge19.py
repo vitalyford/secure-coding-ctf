@@ -19,8 +19,6 @@ class HTTPHandler(BaseHTTPRequestHandler):
         self.respond({'status': 200})
 
     def handle_http(self, status_code, path):  # handle the request
-        global config_data
-
         self.send_response(status_code)
         self.send_header('Content-type', 'text/html')
         self.end_headers()
