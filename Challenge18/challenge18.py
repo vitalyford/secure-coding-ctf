@@ -45,7 +45,7 @@ class HTTPHandler(BaseHTTPRequestHandler):
         # read about GET parameters here: https://en.ryte.com/wiki/GET_Parameter
         get_params = urlparse.urlparse(path) # read the GET parameters from the URL that user requested
         # if the username and password match the ones in the config_data, then show the secret information
-        if 'username' in urlparse.parse_qs(get_params.query) and 'password' in urlparse.parse_qs(get_params.query):  # read more lines if the user requested to do so
+        if 'username' in urlparse.parse_qs(get_params.query) and 'password' in urlparse.parse_qs(get_params.query):
             username = urlparse.parse_qs(get_params.query)['username'][0]
             password = urlparse.parse_qs(get_params.query)['password'][0]
 
