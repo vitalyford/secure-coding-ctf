@@ -58,11 +58,14 @@ class HTTPHandler(BaseHTTPRequestHandler):
             # if the user requests to checkout a specific commit, allow to do that only if the hash is specified as well
             elif cmd == 'checkout' and 'hash' in urlparse.parse_qs(get_params.query):
                 commit_hash = urlparse.parse_qs(get_params.query)['hash'][0]
-                commit_file = open('commits/' + commit_hash, 'r')  # open the file corresponding to that commit
-                commit_file_data = commit_file.readlines()  # stores a list of lines from the file
-                commit_file.close()
-                for line in commit_file_data:
-                    output += line + '<br>'
+                try:
+                    commit_file = open('commits/' + commit_hash, 'r')  # open the file corresponding to that commit
+                    commit_file_data = commit_file.readlines()  # stores a list of lines from the file
+                    commit_file.close()
+                    for line in commit_file_data:
+                        output += line + '<br>'
+                except:
+                    output = 'File not found'
 
         # generate the output to show to the user
         current_output = '''<h3>Challenge 19</h3><p>{}</p>'''.format(output)
