@@ -60,7 +60,6 @@ class HTTPHandler(BaseHTTPRequestHandler):
                 commit_hash = urlparse.parse_qs(get_params.query)['hash'][0]
                 commit_file = open('commits/' + commit_hash, 'r')  # open the file corresponding to that commit
                 commit_file_data = commit_file.readlines()  # stores a list of lines from the file
-                commit_file.close()
                 for line in commit_file_data:
                     output += line + '<br>'
 

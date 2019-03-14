@@ -1,7 +1,20 @@
+commit 40608862b49edc1080f57f5c9e21ae775afba973 (HEAD)
+Author: Vitaly Ford <5395250+vitalyford@users.noreply.github.com>
+Date:   Thu Mar 14 16:36:02 2019 -0400
+
+    Fix git-checkout problem on challenge 19
+
+commit 5e6c4681e4c329d5c5cf8a0b5205f72129f7f107 (master)
+Author: Vitaly Ford <5395250+vitalyford@users.noreply.github.com>
+Date:   Thu Mar 14 16:18:17 2019 -0400
+
+    Add git command processing in challenge 19
+
+commit 8b8b1c0b81f379e43ecf4242f4e3c27a088c8dd4
 Author: Vitaly Ford <5395250+vitalyford@users.noreply.github.com>
 Date:   Thu Mar 14 16:02:47 2019 -0400
 
-    Delete comments from previous challenges 18-19
+    Delete commends from previous challenges 18-19
 
 commit dd477a8c850f1288f03a39befe9a89e634db6a9f
 Author: Vitaly Ford <5395250+vitalyford@users.noreply.github.com>
@@ -38,15 +51,3 @@ Author: Vitaly Ford <5395250+vitalyford@users.noreply.github.com>
 Date:   Thu Mar 14 15:51:39 2019 -0400
 
     Add challenge 19, delete comment on challenge 18
-
-commit e4a642138989c9f57017bccdb928b8c299fa5e05 (origin/master)
-Author: Vitaly Ford <5395250+vitalyford@users.noreply.github.com>
-Date:   Thu Mar 14 15:25:41 2019 -0400
-
-    Add challenges 11-18 & template, lang: python&java
-
-commit b942806ccfdb8a855a052377c0a181446a79e576
-Author: Daniel Tyler <dolphinhats@users.noreply.github.com>
-Date:   Sat Jan 26 22:06:36 2019 -0500
-
-    Initial commit
