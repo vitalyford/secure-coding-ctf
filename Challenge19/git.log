@@ -1,0 +1,52 @@
+Author: Vitaly Ford <5395250+vitalyford@users.noreply.github.com>
+Date:   Thu Mar 14 16:02:47 2019 -0400
+
+    Delete comments from previous challenges 18-19
+
+commit dd477a8c850f1288f03a39befe9a89e634db6a9f
+Author: Vitaly Ford <5395250+vitalyford@users.noreply.github.com>
+Date:   Thu Mar 14 16:01:11 2019 -0400
+
+    Delete unnecessary html code from index file
+
+commit f7022e48f665cdb56a3b0fbec75c0286a84d0211
+Author: Vitaly Ford <5395250+vitalyford@users.noreply.github.com>
+Date:   Thu Mar 14 15:59:35 2019 -0400
+
+    Move username and password from plaintext to file
+
+commit c1dce57829668b82678d4868ec58917fa37cfeab
+Author: Vitaly Ford <5395250+vitalyford@users.noreply.github.com>
+Date:   Thu Mar 14 15:57:14 2019 -0400
+
+    Add password and username in the challenge
+
+commit da7cce76f5df1251678207e32fdf6c24d455642c
+Author: Vitaly Ford <5395250+vitalyford@users.noreply.github.com>
+Date:   Thu Mar 14 15:52:56 2019 -0400
+
+    Fix challenge 19 header
+
+commit 9630424c7685ec04718782d9128ba3f65a5223fc
+Author: Vitaly Ford <5395250+vitalyford@users.noreply.github.com>
+Date:   Thu Mar 14 15:52:23 2019 -0400
+
+    Delete unused lines from challenge 19
+
+commit d6d209c728877af5145c15a93f5ddfeedcded40b
+Author: Vitaly Ford <5395250+vitalyford@users.noreply.github.com>
+Date:   Thu Mar 14 15:51:39 2019 -0400
+
+    Add challenge 19, delete comment on challenge 18
+
+commit e4a642138989c9f57017bccdb928b8c299fa5e05 (origin/master)
+Author: Vitaly Ford <5395250+vitalyford@users.noreply.github.com>
+Date:   Thu Mar 14 15:25:41 2019 -0400
+
+    Add challenges 11-18 & template, lang: python&java
+
+commit b942806ccfdb8a855a052377c0a181446a79e576
+Author: Daniel Tyler <dolphinhats@users.noreply.github.com>
+Date:   Sat Jan 26 22:06:36 2019 -0500
+
+    Initial commit

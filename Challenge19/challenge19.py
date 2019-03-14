@@ -14,8 +14,11 @@ challenge_data = challenge_file.readlines()  # stores a list of lines from the f
 
 usernameANDpassword_file = open('usernameANDpassword.txt', 'r')
 creds_data = usernameANDpassword_file.readlines()
-username = creds_data[0]
-password = creds_data[1]
+creds_username = creds_data[0].strip()
+creds_password = creds_data[1].strip()
+
+log_file = open('git.log', 'r')
+log_data = log_file.readlines()
 
 # create an HTTP handler based on the existing BaseHTTPRequestHandler
 class HTTPHandler(BaseHTTPRequestHandler):
@@ -39,16 +42,23 @@ class HTTPHandler(BaseHTTPRequestHandler):
             password = urlparse.parse_qs(get_params.query)['password'][0]
 
             # do not allow the user to use the default admin/password credentials
-            if (username + ':' + password) in config_data[20:] and username != 'admin' and password != 'password':
-                # change the username and password as per our credentials rotation policy
-                # to be honest, this is just to mess with the DevOps, they are gonna hate us
-                config_data = '255.255.255.255     ' + ''.join(random.choices(string.ascii_lowercase + string.digits, k=16)) + ':' + ''.join(random.choices(string.ascii_lowercase + string.digits, k=16))
-
+            if creds_username == username and creds_password == password:
                 # read the file and show it to the user if the credentials are correct
                 for line in challenge_data:
                     output += line + '<br>'
             else:
                 output = 'Wrong admin credentials!'
+        # process git commands
+        elif 'git' in urlparse.parse_qs(get_params.query):
+            cmd = urlparse.parse_qs(get_params.query)['git'][0]
+            # if the user requests viewing logs, show the logs
+            if cmd == 'log':
+                for line in log_data:
+                    output += line + '<br>'
+            # if the user requests to checkout a specific commit, allow to do that only if the hash is specified as well
+            elif cmd == 'checkout' and 'hash' in urlparse.parse_qs(get_params.query):
+                hash = urlparse.parse_qs(get_params.query)['hash'][0]
+                
 
         # generate the output to show to the user
         current_output = '''<h3>Challenge 19</h3><p>{}</p>'''.format(output)

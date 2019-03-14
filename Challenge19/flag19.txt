@@ -1,4 +1,4 @@
-
+Never leave sensitive information in git history. Never commit in your version control any credentials, keys, passwords, etc., because all that information can be retrieved later.
 
 So, good job, here is your flag: jskhh87f1dfa76f5307ebae495f580
 
