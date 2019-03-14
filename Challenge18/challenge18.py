@@ -5,7 +5,7 @@ import subprocess
 import random
 import string
 import urllib.parse as urlparse
-# git history password storage
+
 HOST = '0.0.0.0'
 PORT = 7008
 
