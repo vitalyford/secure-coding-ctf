@@ -1,0 +1,13 @@
+build:
+  docker:
+    mainpage: Dockerfile
+    challenge11: ./Challenge11/Dockerfile
+    challenge12: ./Challenge12/Dockerfile
+    challenge13: ./Challenge13/Dockerfile
+    challenge14: ./Challenge14/Dockerfile
+    challenge15: ./Challenge15/Dockerfile
+    challenge16: ./Challenge16/Dockerfile
+    challenge17: ./Challenge17/Dockerfile
+    challenge18: ./Challenge18/Dockerfile
+    challenge19: ./Challenge19/Dockerfile
+    challenge20: ./Challenge20/Dockerfile
