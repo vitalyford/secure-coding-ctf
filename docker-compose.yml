@@ -1,0 +1,63 @@
+version: '3'
+
+services:
+  challenge11:
+    build: ./Challenge11
+    image: challenge11
+    ports:
+      - "7001:7001"
+
+  challenge12:
+    build: ./Challenge12
+    image: challenge12
+    ports:
+      - "7002:7002"
+
+  challenge13:
+    build: ./Challenge13
+    image: challenge13
+    ports:
+      - "7003:7003"
+
+  challenge14:
+    build: ./Challenge14
+    image: challenge14
+    ports:
+      - "7004:7004"
+
+  challenge15:
+    build: ./Challenge15
+    image: challenge15
+    ports:
+      - "7005:7005"
+
+  challenge16:
+    build: ./Challenge16
+    image: challenge16
+    ports:
+      - "7006:7006"
+
+  challenge17:
+    build: ./Challenge17
+    image: challenge17
+    ports:
+      - "7007:7007"
+
+  challenge18:
+    build: ./Challenge18
+    image: challenge18
+    ports:
+      - "7008:7008"
+
+  challenge19:
+    build: ./Challenge19
+    image: challenge19
+    ports:
+      - "7009:7009"
+
+  challenge20:
+    build: ./Challenge20
+    image: challenge20
+    ports:
+      - "7010:7010"
+
