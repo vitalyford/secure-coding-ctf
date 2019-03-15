@@ -1,0 +1,5 @@
+User input validation must be the first thought that comes to mind when you process user's input anywhere in your code. HomeMatic automation system had a vulnerability in 2018 that allows arbitrary file overwrite (https://atomic111.github.io/article/homematic-ccu2-filewrite) via an easily-crafted JSON API request.
+
+So, good job, here is your flag: 86jhg768sdf786876df7
+
+Source: [Wikipedia]
