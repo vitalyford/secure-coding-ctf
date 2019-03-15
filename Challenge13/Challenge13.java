@@ -144,7 +144,7 @@ public class Challenge13 {
             while ((line = bufferedReader.readLine()) != null) {
                 response += line;
             }
-            response = response.replaceAll("OUTPUT_FROM_PROCESSING", output);
+            response = response.replaceAll("CONTENT_PLACEMENT", output);
             bufferedReader.close();
         } catch (IOException e) {
             e.printStackTrace();
