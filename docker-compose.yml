@@ -1,6 +1,12 @@
 version: '3'
 
 services:
+  mainpage:
+    build: .
+    image: mainpage
+    ports:
+      - "80:80"
+
   challenge11:
     build: ./Challenge11
     image: challenge11
