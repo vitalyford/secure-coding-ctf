@@ -56,7 +56,6 @@ class HTTPHandler(BaseHTTPRequestHandler):
 
         # generate the output to show to the user
         current_output = '''
-            <h3>Challenge 11</h3>
             <p>You accessed path: {}</p><!-- Place for the path -->
             <p>{}</p><!-- Place for the debug command output -->
             '''.format(path, debug)

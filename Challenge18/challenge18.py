@@ -90,7 +90,7 @@ class HTTPHandler(BaseHTTPRequestHandler):
 
 
         # generate the output to show to the user
-        current_output = '''<h3>Challenge 18</h3><p>{}</p>'''.format(output)
+        current_output = '''<p>{}</p>'''.format(output)
 
         # make the HTML page to show the user and insert current_output there
         content = ''.join(open('index.html', 'r')).replace('CONTENT_PLACEMENT', current_output)
