@@ -26,7 +26,10 @@ class HTTPHandler(BaseHTTPRequestHandler):
         # read about GET parameters here: https://en.ryte.com/wiki/GET_Parameter
         lines_to_read = urlparse.urlparse(path) # read the GET parameters from the URL that user requested
         if 'lines' in urlparse.parse_qs(lines_to_read.query): # read more lines if the user requested to do so
-            lines_num = int(urlparse.parse_qs(lines_to_read.query)['lines'][0])
+            try:
+                lines_num = int(urlparse.parse_qs(lines_to_read.query)['lines'][0])
+            except:
+                lines_num = 1
 
         # read the file and show it to the user
         for i in range(0, lines_num):

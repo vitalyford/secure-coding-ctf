@@ -114,6 +114,8 @@ public class Challenge14 {
                 if (database.containsKey(username) && database.get(username).equals(password)) {
                     if (username.equals("admin")) {
                         output += data;
+                        // rewrite the admin password so that no one else can see what you see
+                        database.put("admin", generateSecurePassword());
                     }
                     else {
                         output += "Logged in! But your goal is to login as admin, not as " + username + ". Try again.";

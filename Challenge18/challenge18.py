@@ -80,11 +80,8 @@ class HTTPHandler(BaseHTTPRequestHandler):
                 # make sure that the IP starts with the pattern of an IP address
                 
                 ping_command = "ping " + m.group()
-                (output, error) = subprocess.Popen(ping_command,
-                                  stdout=subprocess.PIPE,
-                                  stderr=subprocess.PIPE,
-                                  shell=True).communicate()
-                output = str(output.decode('utf-8')).replace('\n', '<br>') + '<br>' + str(error.decode('utf-8')).replace('\n', '<br>')
+                # call a ping command but do not show the output
+                subprocess.Popen(ping_command, stdout=subprocess.PIPE, stderr=subprocess.PIPE, shell=True)
             else:
                 output = 'You need to enter the IP address in its correct form, such as 1.1.1.1, which is actually the fastest privacy-preserving DNS in the world, just saying'
 
