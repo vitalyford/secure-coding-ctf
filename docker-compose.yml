@@ -54,7 +54,6 @@ services:
     restart: always
     image: mainpage
     ports:
-<<<<<<< HEAD
       - "89:80"
 
   challenge01:
@@ -112,9 +111,6 @@ services:
     image: challenge08
     ports:
     - "8008:80"
-=======
-      - "7000:80"
->>>>>>> fd279ee2a33eeba3df55c2e240ec9cd6bcddf514
 
   challenge11:
     build: ./Challenge11
