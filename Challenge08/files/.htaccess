@@ -1,0 +1,5 @@
+Options -Indexes
+
+<Files "flag*">  
+  Require all denied
+</Files>

@@ -1,0 +1,10 @@
+FROM php
+
+WORKDIR "/www/"
+
+COPY . /app
+
+
+
+
+
