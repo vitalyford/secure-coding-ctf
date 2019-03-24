@@ -1,5 +1,0 @@
-Options -Indexes
-
-<Files "memory.php">  
-  Require all denied
-</Files>

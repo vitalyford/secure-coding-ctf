@@ -1,5 +1,0 @@
-Options -Indexes
-
-<Files "*.config">  
-  Require all denied
-</Files>

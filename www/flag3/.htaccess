@@ -1,5 +1,0 @@
-Options -Indexes
-
-<Files "flag3.php">  
-  Require all denied
-</Files>
