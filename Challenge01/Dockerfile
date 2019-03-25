@@ -6,3 +6,4 @@ COPY . /var/www/html/
 
 RUN apt-get update && apt-get install -y iputils-ping
 
+RUN sed -i '/<Directory \/var\/www\/>/,/<\/Directory>/ s/AllowOverride None/AllowOverride All/' /etc/apache2/apache2.conf
