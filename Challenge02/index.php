@@ -18,11 +18,12 @@ $address=preg_replace("/\||&|;/"," ",$address);
 
 
 $command="ping -c 1 ";
-$command=$command.$address;
+$command=$command.$address." 2>&1";
+
 
 
 //echo $command;
-$answer=passthru($command);
+$answer=system($command);
 echo "<h3>".preg_replace("/\r|\n/","<br/>",$answer)."</h3>";
 	
 }

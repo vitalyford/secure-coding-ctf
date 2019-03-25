@@ -14,7 +14,9 @@ if(isset($_GET['address'])){
 $address=$_GET['address'];
 require "code.php";
 $command="ping -c 1 ".$address;
-$answer=passthru($command);
+$command=$command.$address." 2>&1";
+
+$answer=system($command);
 echo "<h3>".preg_replace("/\r|\n/","<br/>",$answer)."</h3>";
 		
 }
