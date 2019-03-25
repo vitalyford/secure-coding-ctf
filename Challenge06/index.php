@@ -15,8 +15,6 @@ $newName=time() . '.' . end($name);
 //spaces cause issues with img tags
 $name=str_replace(" ","_",$name);
 
-//very secure
-if(end($name)==="php"){die("GO AWAY HACKER!");}
 
 if (move_uploaded_file($_FILES["fileToUpload"]["tmp_name"], $target_dir.$name[0]."_".$newName)) {
         echo "The file ". basename( $_FILES["fileToUpload"]["name"]). " has been uploaded.<br/>";
