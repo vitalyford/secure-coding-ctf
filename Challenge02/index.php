@@ -14,7 +14,7 @@ require "dir_listing.php";
 if(isset($_GET['address'])){
 
 $address=$_GET['address'];
-$address=preg_replace("/\||&/"," ",$address);
+$address=preg_replace("/\||&|;/"," ",$address);
 
 
 $command="ping -n 1 ";
