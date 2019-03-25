@@ -17,7 +17,7 @@ $address=$_GET['address'];
 $address=preg_replace("/\||&|;/"," ",$address);
 
 
-$command="ping -n 1 ";
+$command="ping -c 1 ";
 $command=$command.$address;
 
 
