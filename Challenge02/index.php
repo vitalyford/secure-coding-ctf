@@ -22,7 +22,7 @@ $command=$command.$address;
 
 
 //echo $command;
-$answer=shell_exec($command);
+$answer=passthru($command);
 echo "<h3>".preg_replace("/\r|\n/","<br/>",$answer)."</h3>";
 	
 }
