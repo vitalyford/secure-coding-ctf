@@ -15,10 +15,7 @@ $newName=time() . '.' . end($name);
 //spaces cause issues with img tags
 $name=str_replace(" ","_",$name);
 
-//very secure
-if(end($name)==="php"){
-	die("GO AWAY HACKER!");
-}
+
 //check file magic
 $type = mime_content_type($_FILES["fileToUpload"]["tmp_name"]);
 if(($type == "image/jpeg" or $type == "image/png" or $type == "image/gif")){
