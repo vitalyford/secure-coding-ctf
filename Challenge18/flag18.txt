@@ -2,6 +2,6 @@ A story about a bridge
 
 Configuration array overflow. The user input is validated but the length of it is not. So, if the user enters a string that is long, it will overide the existing data corresponding to the administrator's credentials.
 
-So, good job, here is your flag: 8e761acc9f1dfa76f5307ebae495f580
+So, good job, here is your flag: {EF9F93ED-E07A-4134-9802-0A908BBBB13C}
 
 Source: [Wikipedia]

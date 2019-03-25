@@ -1,3 +1,5 @@
 Leaving default settings in production.
 
 Haveibeenpwned allows you to not only check for the leaked passwords and emails, but also to provide API for testing user passwords prior to their registration.
+
+So, here is your flag: {DF40C21D-8D0F-4A20-BC4C-AE4F70F80B3B}
