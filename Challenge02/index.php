@@ -23,7 +23,7 @@ $command=$command.$address." 2>&1";
 
 
 //echo $command;
-$answer=system($command);
+$answer=shell_exec($command);
 echo "<h3>".preg_replace("/\r|\n/","<br/>",$answer)."</h3>";
 	
 }

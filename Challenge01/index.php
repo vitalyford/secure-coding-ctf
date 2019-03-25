@@ -13,10 +13,10 @@ if(isset($_GET['address'])){
 
 $address=$_GET['address'];
 require "code.php";
-$command="ping -c 1 ".$address;
+$command="ping -c 1 ";
 $command=$command.$address." 2>&1";
 
-$answer=system($command);
+$answer=shell_exec($command);
 echo "<h3>".preg_replace("/\r|\n/","<br/>",$answer)."</h3>";
 		
 }
