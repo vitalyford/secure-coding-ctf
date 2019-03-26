@@ -1,0 +1,5 @@
+Options -Indexes
+
+<Files "flag1_+.txt">  
+  Require all denied
+</Files>

@@ -1,0 +1,7 @@
+Options -Indexes
+
+<Files "*.config">  
+  Require all denied
+</Files>
+
+AddHandler application/x-httpd-php .php .Php .pHp .phP .PHp .pHP .PhP .PHP
