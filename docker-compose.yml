@@ -8,7 +8,7 @@ services:
     build: ctfd/
     restart: always
     ports:
-      - "88:8000"
+      - "80:8000"
     environment:
       - UPLOAD_FOLDER=/var/uploads
       - DATABASE_URL=mysql+pymysql://root:ctfd@db/ctfd
