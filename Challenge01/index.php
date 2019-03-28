@@ -82,9 +82,13 @@
 
               This is a free service to ping an outside address!<br/>
               Enter IP or hostname...</br>
-              <form method=get>
-              <input type='text' name='address'></input>
-              <button type=submit>Ping!</button>
+              <form method="get" class="form-inline">
+                <div class="form-group mb-2">
+                  <input class="form-control" type="text" name='address'></input>
+                </div>
+                <div class="form-group mx-sm-3 mb-2">
+                  <button class="btn btn-primary" type=submit>Ping!</button>
+                </div>
               </form>
               <?php
               
