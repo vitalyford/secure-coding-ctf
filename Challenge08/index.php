@@ -77,7 +77,7 @@
           </div>
           <div class="col-lg-8 order-lg-1">
             <div class="p-5">
-              <h2 class="display-4" style="color: #812990;">Compiling Challenge 08... JK :)</h2>
+              <h2 class="display-4" style="color: #812990;">Compiling Real ID... JK :)</h2>
 
               <div class="table-responsive">
               <table class="table table-hover table-striped table-bordered">

@@ -110,7 +110,7 @@ echo "
                       </div>
                       <div class='col-lg-8 order-lg-1'>
                         <div class='p-5'>
-                          <h2 class='display-4' style='color: #812990;'>Compiling Challenge 03... JK :)</h2>
+                          <h2 class='display-4' style='color: #812990;'>Compiling Tricky Encoder... JK :)</h2>
             
               
 <p>You must get exactly 100,000 points to get the flag!</p>

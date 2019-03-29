@@ -77,7 +77,7 @@
           </div>
           <div class="col-lg-8 order-lg-1">
             <div class="p-5">
-              <h2 class="display-4" style="color: #812990;">Compiling Challenge 02... JK :)</h2>
+              <h2 class="display-4" style="color: #812990;">Compiling Pong... JK :)</h2>
 
 
               <h2><font color='red'>WE GOT HACKED LAST WEEK BUT NOW WE ARE SECURE!</font></h2>
