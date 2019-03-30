@@ -8,6 +8,58 @@ services:
   #   ports:
   #     - "89:80"
 
+  # ctfd:
+  #   build: ctfd/
+  #   restart: always
+  #   ports:
+  #     - "80:8000"
+  #   environment:
+  #     - UPLOAD_FOLDER=/var/uploads
+  #     - DATABASE_URL=mysql+pymysql://root:ctfd@db/ctfd
+  #     - REDIS_URL=redis://cache:6379
+  #     - WORKERS=1
+  #     - LOG_FOLDER=/var/log/CTFd
+  #     - ACCESS_LOG=-
+  #     - ERROR_LOG=-
+  #   volumes:
+  #     - "./ctfd/.data/CTFd/logs:/var/log/CTFd"
+  #     - "./ctfd/.data/CTFd/uploads:/var/uploads"
+  #     - "./ctfd/:/opt/CTFd:ro"
+  #   depends_on:
+  #     - db
+  #   networks:
+  #       default:
+  #       internal:
+
+  # db:
+  #   image: mariadb:10.4
+  #   restart: always
+  #   environment:
+  #     - MYSQL_ROOT_PASSWORD=ctfd
+  #     - MYSQL_USER=ctfd
+  #     - MYSQL_PASSWORD=ctfd
+  #   volumes:
+  #   -  "./ctfd/.data/mysql:/var/lib/mysql"
+  #   networks:
+  #       internal:
+  #   # This command is required to set important mariadb defaults
+  #   command: [mysqld, --character-set-server=utf8mb4, --collation-server=utf8mb4_unicode_ci, --wait_timeout=28800, --log-warnings=0]
+
+  # cache:
+  #   image: redis:4
+  #   restart: always
+  #   volumes:
+  #       - "./ctfd/.data/redis:/data"
+  #   networks:
+  #       internal:
+    
+  # mainpage:
+  #   build: .
+  #   restart: always
+  #   image: mainpage
+  #   ports:
+  #     - "89:80"
+
   challenge01:
     build: ./Challenge01
     restart: always
@@ -63,6 +115,20 @@ services:
     image: challenge08
     ports:
     - "8008:80"
+
+  challenge09:
+    build: ./Challenge09
+    restart: always
+    image: challenge09
+    ports:
+    - "8009:80"
+
+  challenge10:
+    build: ./Challenge10
+    restart: always
+    image: challenge10
+    ports:
+    - "8010:80"
 
   challenge11:
     build: ./Challenge11

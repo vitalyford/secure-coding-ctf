@@ -70,53 +70,51 @@
             <div class="p-5">
               <img class="img-fluid rounded-circle" src="https://blackrockdigital.github.io/startbootstrap-one-page-wonder/img/01.jpg" alt="">
               <blockquote style="padding-top: 20px;">
-                <p>Before software can be reusable it first has to be usable.</p>
-                <footer>&mdash; <cite>Ralph Johnson</cite></footer>
+                <p>Good code is its own best documentation.</p>
+                <footer>&mdash; <cite>Steve McConnell</cite></footer>
               </blockquote>
             </div>
           </div>
           <div class="col-lg-8 order-lg-1">
             <div class="p-5">
-              <h2 class="display-4" style="color: #812990;">Compiling Edgy Veggie... JK :)</h2>
-                <p class="text-success">CONTENT_PLACEMENT</p>
-                <nav>
-                  <div class="nav nav-tabs" id="nav-tab" role="tablist">
-                    <a class="nav-item nav-link active" id="nav-register-tab" data-toggle="tab" href="#nav-register" role="tab" aria-controls="nav-register" aria-selected="true">Register</a>
-                    <a class="nav-item nav-link" id="nav-login-tab" data-toggle="tab" href="#nav-login" role="tab" aria-controls="nav-login" aria-selected="false">Login</a>
-                  </div>
-                </nav>
-                <div class="tab-content" id="nav-tabContent">
-                
-                  <!-- Registration part -->
-                  <div class="tab-pane fade show active" id="nav-register" role="tabpanel" aria-labelledby="nav-register-tab">
-                    <br><p>Fill out the form to create a new account</p>
-                    <form action="/register/" method="get">
-                      <div class="form-group">
-                        <input type="text" class="form-control" id="inputUsername" name="username" placeholder="Enter your username to register" autofocus="autofocus">
-                      </div>
-                      <div class="form-group">
-                        <input type="password" class="form-control" id="inputPassword" name="password" placeholder="Enter your password to register">
-                      </div>
-                      <button type="submit" class="btn btn-primary">Register</button>
-                    </form>
-                  </div>
+              <h2 class="display-4" style="color: #812990;">Compiling Juggling 1... JK :)</h2>
+<?php
+require "settings.php";
 
-                  <!-- Login part -->
-                  <div class="tab-pane fade" id="nav-login" role="tabpanel" aria-labelledby="nav-login-tab">
-                    <br><p>Hopefully, you remember your password</p>
-                    <form action="/login/" method="get">
-                      <div class="form-group">
-                        <input type="text" class="form-control" id="inputUsername" aria-describedby="usernameHelp" name="username" placeholder="Enter your username">
-                        <small id="usernameHelp" class="form-text text-muted">Choose your weapon wisely</small>
-                      </div>
-                      <div class="form-group">
-                        <input type="password" class="form-control" id="inputPassword" name="password" placeholder="Enter your password">
-                      </div>
-                      <button type="submit" class="btn btn-primary">Login</button>
-                    </form>
-                  </div>
-
+if (isset($_GET['password'])){
+	
+	$actualPass="999";
+	
+	if($_GET['password']==="999"){
+		$_GET['password']="=P"; //hahaha
+		}
+		
+	
+	if($_GET['password']==$actualPass)
+	{
+		echo $flag;
+		}
+	else
+	{
+		echo "Nope<br/><br/><br/>";
+		}
+}
+?>
+             <h3>This site is password protected!</h3>
+              <!-- Hint: no sql is needed... -->
+              <form method='get'>
+                <div class='form-group'>
+                  <label>Password:</label><br>
                 </div>
+                <div class='form-group'>
+                  <input type='text' name='password' id='password'><br>
+                </div>
+                <div class='form-group'>
+                  <button class='btn btn-primary' type='submit'>Submit</button>
+                </div>
+              </form>
+
+              
             </div>
           </div>
         </div>

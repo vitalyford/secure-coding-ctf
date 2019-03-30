@@ -137,7 +137,7 @@ public class Challenge14 {
     static class IndexHandler implements HttpHandler {
         @Override
         public void handle(HttpExchange t) throws IOException {
-            generateResponse(t, "admin has secured her account with a long password and fixed the bug from Challenge 13 by adding line 62! or did she? :-P");
+            generateResponse(t, "admin has secured her account with a long password and fixed the bug from Edgy Veggie by adding line 62! or did she? :-P");
         }
     }
     

@@ -1,6 +1,6 @@
 <html>
 <head><title>Chat Server v1.0</title></head>
-Welcome to my chat server!!</br/>
+Welcome to my chat server - hopefully it will not give you a Heartattack!!</br/>
 <body onload="window.id=setInterval(heartbeat,1000);">
 <textarea style="width:500; height:500;" disabled>
 Admin: Hey guys, I just updated the chat to include a status when the server goes offline or you lose connection.
