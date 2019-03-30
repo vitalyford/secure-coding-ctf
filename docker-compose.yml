@@ -112,6 +112,20 @@ services:
     ports:
     - "8008:80"
 
+  challenge09:
+    build: ./Challenge09
+    restart: always
+    image: challenge09
+    ports:
+    - "8009:80"
+
+  challenge10:
+    build: ./Challenge10
+    restart: always
+    image: challenge10
+    ports:
+    - "8010:80"
+
   challenge11:
     build: ./Challenge11
     restart: always
