@@ -18,4 +18,8 @@ This project is fairly easy to deploy, simply run [`build.sh`](/build.sh) which 
 2. Generate a required crypto key for CTFd.
 3. Run `docker-compose up` which will build and start the CTFd instance and all 18 challenges.
 
-Once CTFd has started, you may navigate to `localhost:80` in order to configure the challenges. Currently all challenges need to be setup manually within CTFd but there are plans to copy the data present during the WiCyS competition into this repo.
+Once CTFd has started, you may navigate to `localhost:80` in order to configure the challenges. 
+
+When you log in to the admin portal, you can navigate to Settings and select Export. In the main directory of this repository, you will find a file called backup.2019-04-10.zip that you can export in order to get the flags, hints, categories, etc. to be added to the CTFd platform. Later on, you can change the flags yourself in CTFd (but don't forget to change those in the Challenge directories accordingly).
+
+Contact if you have any questions/concerns/suggestions/contributions: Vitaly Ford (fordv@arcadia.edu).
