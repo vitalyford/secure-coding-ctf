@@ -1,0 +1,21 @@
+name: "Tricky Encoder [<code>PHP</code>]"
+author: "author"
+category: Easy
+description: <Team IP>:8003
+value: 10
+type: standard
+
+flags:
+    - BE0B3E0A-843B-45BB-B7F9-54683B1D0CC4
+
+hints:
+    - First find out how the value gets updated and how it is tracked in your browser
+    - https://www.owasp.org/index.php/Top_10_2007-Insecure_Cryptographic_Storage Uses home grown “encryption”/encoding scheme to store the points value. The programmer should have instead kept the score on the server side or use a rotating key. Maybe it is encoded in something other than base 10... or base 2
+
+tags:
+    - php
+
+files: 
+    - ./functions.php
+    - ./index.php
+

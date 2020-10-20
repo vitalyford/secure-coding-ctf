@@ -1,0 +1,20 @@
+name: "Real ID 2 [<code>PHP</code>]"
+author: "author"
+category: Medium
+description: <Team IP>:8010
+value: 10
+type: standard
+
+flags:
+    - 011C579B-50A9-475B-B816-E676C65CCCBA
+
+hints:
+    - This one is similar to Real ID 1 except the programmer decided to hide the real id values behind some sort of hash... i wonder what it could be...
+    - https://passwordsgenerator.net/md5-hash-generator/
+
+tags:
+    - web
+
+files: 
+    - ./files.php
+    - ./index.php

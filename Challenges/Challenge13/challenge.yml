@@ -1,0 +1,18 @@
+name: "Edgy Veggie [<code>JAVA</code>]"
+author: "author"
+category: Medium
+description: <Team IP>:7003
+value: 20
+type: standard
+
+flags:
+    - CA741C74-A5AB-404D-A6BF-2F22A7BD94CB
+
+hints: 
+    - Username trimming on save operation. This bug has previously been seen in database management systems. When the database saves the username, it trims the username, which causes the override of the previously created user if the usernames match.So, you may just need to append something to the username "admin" when you register a new user.
+tags:
+    - java
+
+files: 
+    - ./Challenge13.java
+
