@@ -6,7 +6,7 @@ services:
     # restart: always
     image: challenge01
     ports:
-    - "8001:80"
+    - "8001:8001"
 
   challenge02:
     build: ./Challenge02

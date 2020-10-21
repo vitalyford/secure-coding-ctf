@@ -1,7 +1,8 @@
 ## To deploy challenges to the swarm use:
 1. run `docker swarm init --advertise-addr [ip]`
-2. run `docker stack deploy -c docker-compose.yml challenges`
-3. run `docker-compose up -d`
+3. run `docker-compose build`
+2. run `docker stack deploy -c docker-stack.yml challenges`
+
 ## To upload challenges to ctfd
 1. get token from  [ctfd_url]/settings#tokens
 2. set token and ctfd_url as an enviromental variables CTFD_TOKEN and CTFD_URL
