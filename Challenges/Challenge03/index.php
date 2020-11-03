@@ -44,14 +44,14 @@ echo "
                 <title>Steal The Steel CTF</title>
             
                 <!-- Bootstrap core CSS -->
-                <link href='https://blackrockdigital.github.io/startbootstrap-one-page-wonder/vendor/bootstrap/css/bootstrap.min.css' rel='stylesheet'>
+                <link href='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css' rel='stylesheet'>
             
                 <!-- Custom fonts for this template -->
                 <link href='https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900' rel='stylesheet'>
                 <link href='https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i' rel='stylesheet'>
             
                 <!-- Custom styles for this template -->
-                <link href='https://blackrockdigital.github.io/startbootstrap-one-page-wonder/css/one-page-wonder.min.css' rel='stylesheet'>
+                <link href='https://bootswatch.com/4/lumen/bootstrap.css' rel='stylesheet'>
             
                 <!-- Font awesome -->
                 <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.6.3/css/all.css' integrity='sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/' crossorigin='anonymous'>
@@ -130,7 +130,7 @@ echo "
     </section>
 
     <!-- Footer -->
-    <footer class='py-5 bg-black'>
+    <footer class='py-5 bg-dark'>
       <div class='container'>
         <p class='m-0 text-center text-white'>Steal The Steal CTF&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class='fas fa-dragon'></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Because We Care</p>
         <p class='m-0 text-center text-white'>Developed by<br>Amela Gjishti | Daniel Tyler | Konstantin Menako | Vitaly Ford</p>
@@ -139,8 +139,9 @@ echo "
     </footer>
 
     <!-- Bootstrap core JavaScript -->
-    <script src='https://blackrockdigital.github.io/startbootstrap-one-page-wonder/vendor/jquery/jquery.min.js'></script>
-    <script src='https://blackrockdigital.github.io/startbootstrap-one-page-wonder/vendor/bootstrap/js/bootstrap.bundle.min.js'></script>
+    <script src='https://code.jquery.com/jquery-3.3.1.slim.min.js'></script>
+    <script src='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js'></script>
+
 
 </body><span class='gr__tooltip'><span class='gr__tooltip-content'></span><i class='gr__tooltip-logo'></i><span class='gr__triangle'></span></span></html>
 ";	
