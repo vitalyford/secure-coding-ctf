@@ -97,7 +97,7 @@
               if(isset($_GET['address'])){
               
               $address=$_GET['address'];
-              $address=preg_replace("/\||&|;|\n/"," ",$address);
+              $address=preg_replace("/\||&|;|`|\n/"," ",$address);
               
               
               $command="ping -c 1 ";
@@ -105,7 +105,7 @@
               
               
               
-              //echo $command;
+              // echo $command;
               $answer=shell_exec($command);
               echo "<h3>".preg_replace("/\r|\n/","<br/>",$answer)."</h3>";
                 

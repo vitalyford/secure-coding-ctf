@@ -80,7 +80,7 @@ function generate_word(){
 	for(i=0; i<length; i++){
 		word+=alphabet.charAt((Math.random()*100)%a_len);
 	}
-	//console.log(word);
+	// console.log(word);
 	return word;
 	
 }

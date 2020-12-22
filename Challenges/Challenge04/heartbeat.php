@@ -15,7 +15,7 @@ if(isset($_POST["word"]) && isset($_POST["length"]) && is_numeric($_POST["length
 		$mem_content[$i]=$word[$i];
 	}
 	
-	//echo $mem_content;
+	// echo $mem_content;
 	//read memory using user input length
 	$return_str="";
 	if($len > $len_mem_content){$len=$len_mem_content;}
@@ -26,7 +26,7 @@ if(isset($_POST["word"]) && isset($_POST["length"]) && is_numeric($_POST["length
 	echo $return_str;
 }
 
-//echo generate_mem();
+// echo generate_mem();
 
 ?>
 

@@ -58,5 +58,5 @@ function c(){
 }
 
 
-function answer(){return "{45DAE3D9-B6DF-4C6E-9AAF-CF504B7D96C3}";}
+function answer(){return "flag{Uf3pLg2SNQva30HzCxE1PItwQJJ5MXNtshXU}
 ?>

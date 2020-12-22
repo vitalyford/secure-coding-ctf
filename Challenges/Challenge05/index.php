@@ -28,13 +28,13 @@
   <body data-gr-c-s-loaded="true">
 
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
-      <div class="container">
-        <a class="navbar-brand" href="/">Break it until you make it</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Break it until you make it</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
               <a class="nav-link" href="https://twitter.com/WiCySorg" target="_blank">Twitter</a>
@@ -47,20 +47,16 @@
             </li>
           </ul>
         </div>
-      </div>
-    </nav>
+    </div>
+  </nav>
 
-    <header class="masthead text-center text-white" style="padding-top: 6.5em; padding-bottom: 2.5em; background: linear-gradient(0deg,#C2CEAF 0,#B1D34A 100%);">
+    <header class="masthead text-center" style="padding-top: 6.5em; padding-bottom: 2.5em;">
       <div class="masthead-content">
         <div class="container">
           <h1 class="masthead-heading mb-0" style="color: #231F20;">Steal The Steel CTF</h1>
           <h2 class="masthead-subheading mb-0">Will Rock Your Socks Off</h2>
         </div>
       </div>
-      <div class="bg-circle-1 bg-circle" style="background: linear-gradient(0deg,#B1D34A 0,#C2CEAF 100%);"></div>
-      <div class="bg-circle-2 bg-circle" style="background: linear-gradient(0deg,#B1D34A 0,#C2CEAF 100%);"></div>
-      <div class="bg-circle-3 bg-circle" style="background: linear-gradient(0deg,#B1D34A 0,#C2CEAF 100%);"></div>
-      <div class="bg-circle-4 bg-circle" style="background: linear-gradient(0deg,#B1D34A 0,#C2CEAF 100%);"></div>
     </header>
 
     <section>
