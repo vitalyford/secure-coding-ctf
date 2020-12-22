@@ -6,7 +6,7 @@ value: 10
 type: standard
 
 flags:
-    - C71BD6A7-8041-4554-9292-F5C2BD2BDD4B
+    - flag{AGybIWMpi0Z3ZNqL0PUMSYff0HdRjQp01fAV}
 
 hints:
     - User input must be sanitized before being used in systems such as a database or syscall. https://www.owasp.org/index.php/Command_Injection

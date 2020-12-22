@@ -4,4 +4,4 @@ Leaving default settings in production is not good, not good at all.
 
 Also, haveibeenpwned.com allows you to not only check for the leaked passwords and emails, but also to provide API for testing user passwords prior to their registration. Good stuff for your future website.
 
-So, here is your flag: {DF40C21D-8D0F-4A20-BC4C-AE4F70F80B3B}
+So, here is your flag: flag{Zzh8d4BPcgJNSUiaqpPiKJt4ZDtkA9bMATcT}

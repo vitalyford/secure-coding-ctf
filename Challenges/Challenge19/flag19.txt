@@ -2,6 +2,6 @@ Andy Warhol Bridge, also known as the Seventh Street Bridge, spans the Allegheny
 
 Never leave sensitive information in git history. Never commit in your version control any credentials, keys, passwords, etc., because all that information can be retrieved later. Never say never.
 
-So, good job, here is your flag: {A5B5E0A2-DCF1-4D45-B5A7-332C881DBB40}
+So, good job, here is your flag: flag{Z4hiKahx8me38ZmRKu2n8K8a4nnfR6hSWHvj}
 
 Source: [Wikipedia]

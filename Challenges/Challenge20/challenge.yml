@@ -6,7 +6,7 @@ value: 30
 type: standard
 
 flags:
-    - AA8DD008-3053-4E57-A3CF-54202C8BC7AF
+    - flag{6RFr8nP59oBSBBUwaREf4rIRtVLfZBiIFzVK}
 
 hints:
     - Tricky linux command injection that allows to read arbitrary files. User input validation should be the first thought that comes to mind when any user input is created.Notice that LICENSE.md is available to view. So, what if you overwrite it with an output of the injected command? In Linux, you can use $(here_goes_command) to echo the output of a command.

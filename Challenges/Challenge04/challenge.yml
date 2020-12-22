@@ -6,7 +6,7 @@ value: 20
 type: standard
 
 flags:
-    - 45DAE3D9-B6DF-4C6E-9AAF-CF504B7D96C3
+    - flag{Uf3pLg2SNQva30HzCxE1PItwQJJ5MXNtshXU}
 
 hints:
     - Check the source for items for which the display style is 'none' ;)

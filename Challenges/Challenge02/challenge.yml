@@ -6,13 +6,12 @@ value: 30
 type: standard
 
 flags:
-    - 69289D89-E575-40CF-944F-9514C54BA397
-
+    - flag{3zcp7Jm385jmDKFtkj2OzTGIBZzgMWo8Rr49}
 hints:
     - Check the source for any debug or hidden code ;)
     - Try pinging a domain that doesn't exist... Notice how all stderr is redirected to stdout and then to the screen. Use that fact in conjunction with >
     - '"<?php phpinfo() ?>" > a.php  remove all newlines'
-    
+    - "<?php echo readfile('/var/www/html/flag2.txt');?>" > tmp/a.php
 tags:
     - php
 

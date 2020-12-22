@@ -1,3 +1,3 @@
-<?php function answer(){echo "{BE0B3E0A-843B-45BB-B7F9-54683B1D0CC4}";} 
+<?php function answer(){echo "flag{Nj2eZlxpWEuXckUDdSZgcoV1ga5X04Qwb0s0} 
 //12002011201
 ?>
