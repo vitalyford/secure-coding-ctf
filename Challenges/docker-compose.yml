@@ -13,7 +13,7 @@ services:
     # restart: always
     image: challenge02
     ports:
-    - "8002:80"
+    - "8002:8002"
 
   challenge03:
     build: ./Challenge03
@@ -36,19 +36,6 @@ services:
     ports:
     - "8005:80"
 
-  challenge06:
-    build: ./Challenge06
-    # restart: always
-    image: challenge06
-    ports:
-    - "8006:80"
-
-  challenge07:
-    build: ./Challenge07
-    # restart: always
-    image: challenge07
-    ports:
-    - "8007:80"
 
   challenge08:
     build: ./Challenge08
@@ -140,3 +127,10 @@ services:
     image: challenge20
     ports:
       - "7010:7010"
+
+  challenge21:
+    build:  ./Challenge21
+    # restart: always
+    image: challenge21
+    ports:
+      - "8006:8006"
