@@ -1,19 +1,19 @@
-name: "Panzer [<code>PYTHON</code>]"
-author: "author"
-category: Medium
+name: Panzer [<code>PYTHON</code>]
+author: author
+category: Week 3
 description: <Team IP>:7008
 value: 20
 type: standard
-
 flags:
-    - flag{CLlg5NKHOorBEhf7PyeMKcYbA43vjre9QojF}
-
+- flag{CLlg5NKHOorBEhf7PyeMKcYbA43vjre9QojF}
 hints:
-    - Overriding data via an overflow on access or save operation. Most common vulnerability of this type is buffer overflow. However, overflows may happen for many other reasons and this is why developers must ensure that the user input length/range is verified before running the commands, using that input.You can type a longer string in the IP address and knowing that, you can overwrite the admin and her password.
-
+- Overriding data via an overflow on access or save operation. Most common vulnerability
+  of this type is buffer overflow. However, overflows may happen for many other reasons
+  and this is why developers must ensure that the user input length/range is verified
+  before running the commands, using that input.You can type a longer string in the
+  IP address and knowing that, you can overwrite the admin and her password.
 tags:
-    - python
-
-files: 
-    - ./challenge18.py
-
+- python
+files:
+- ./challenge18.py
+state: hidden

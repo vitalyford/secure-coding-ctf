@@ -1,19 +1,17 @@
-name: "Firewood [<code>JAVA</code>]"
-author: "author"
-category: Medium
+name: Firewood [<code>JAVA</code>]
+author: author
+category: Week 4
 description: <Team IP>:7007
 value: 20
 type: standard
-
 flags:
-    - flag{9OUHwlwcaVoQcqgy7UdVXcHQoDYpv179tNKV}
-
+- flag{9OUHwlwcaVoQcqgy7UdVXcHQoDYpv179tNKV}
 hints:
-    - Revealing sensitive data through logs. Surprisingly, logs can reveal such information as usernames, common software issues, software versions, intrusion detection systems, etc.Check out the log file more thoroughly, you may find your answer.
-
+- Revealing sensitive data through logs. Surprisingly, logs can reveal such information
+  as usernames, common software issues, software versions, intrusion detection systems,
+  etc.Check out the log file more thoroughly, you may find your answer.
 tags:
-    - java
-
-files: 
-    - ./Challenge17.java
-
+- java
+files:
+- ./Challenge17.java
+state: hidden

@@ -1,19 +1,18 @@
-name: "Pong [<code>PHP</code>]"
-author: "author"
-category: Hard
+name: Pong [<code>PHP</code>]
+author: author
+category: Week 2
 description: <Team IP>:8002
 value: 30
 type: standard
-
 flags:
-    - flag{3zcp7Jm385jmDKFtkj2OzTGIBZzgMWo8Rr49}
+- flag{3zcp7Jm385jmDKFtkj2OzTGIBZzgMWo8Rr49}
 hints:
-    - Check the source for any debug or hidden code ;)
-    - Try pinging a domain that doesn't exist... Notice how all stderr is redirected to stdout and then to the screen. Use that fact in conjunction with >
-    - '"<?php phpinfo() ?>" > a.php  remove all newlines'
+- Check the source for any debug or hidden code ;)
+- Try pinging a domain that doesn't exist... Notice how all stderr is redirected to
+  stdout and then to the screen. Use that fact in conjunction with >
+- '"<?php phpinfo() ?>" > a.php  remove all newlines'
 tags:
-    - php
-
-files: 
-    - ./index.php
-
+- php
+files:
+- ./index.php
+state: hidden

@@ -1,20 +1,18 @@
-name: "Real ID 2 [<code>PHP</code>]"
-author: "author"
-category: Medium
+name: Real ID 2 [<code>PHP</code>]
+author: author
+category: Week 2
 description: <Team IP>:8010
 value: 20
 type: standard
-
 flags:
-    - flag{pEqwElHJkhN6kUImISK004hyeXF5c5LCR9gv}
-
+- flag{pEqwElHJkhN6kUImISK004hyeXF5c5LCR9gv}
 hints:
-    - This one is similar to Real ID 1 except the programmer decided to hide the real id values behind some sort of hash... i wonder what it could be...
-    - https://passwordsgenerator.net/md5-hash-generator/
-
+- This one is similar to Real ID 1 except the programmer decided to hide the real
+  id values behind some sort of hash... i wonder what it could be...
+- https://passwordsgenerator.net/md5-hash-generator/
 tags:
-    - web
-
-files: 
-    - ./files.php
-    - ./index.php
+- web
+files:
+- ./files.php
+- ./index.php
+state: hidden
