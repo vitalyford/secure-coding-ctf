@@ -134,3 +134,10 @@ services:
     image: challenge21
     ports:
       - "8006:8006"
+
+  challenge22:
+    build:  ./Challenge22
+    # restart: always
+    image: challenge22
+    ports:
+      - "8007:8007"
