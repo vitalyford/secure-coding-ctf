@@ -5,13 +5,13 @@ description: <Team IP>:7010
 value: 10
 type: standard
 flags:
-- flag{z73cVY1dUfi6BLFd0Qu5QgBFQOFrd1Buxs4o}
+- flag{gdW1vae4jGeo6RRbvvLGY1m9WCy6VqO0fkem}
 hints:
-- Tricky linux command injection that allows to read arbitrary files. User input validation
-  should be the first thought that comes to mind when any user input is created.Notice
-  that LICENSE.md is available to view. So, what if you overwrite it with an output
-  of the injected command? In Linux, you can use $(here_goes_command) to echo the
-  output of a command.
+- content: Notice that the pass variable is allocated only 10 bits of memory
+  cost: 1
+- content: The strcpy is a a very dangerous method to use because it allows what vulnerability?(Free
+    hint you can google it)
+  cost: 1
 tags:
 - php, c++
 files:

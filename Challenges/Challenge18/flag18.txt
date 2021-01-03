@@ -2,6 +2,6 @@ The Glenwood Bridge is a cantilever bridge in Pittsburgh, Pennsylvania, which ca
 
 Configuration array overflow. The user input is validated but the length of it is not. So, if the user enters a string that is long, it will overide the existing data corresponding to the administrator's credentials.
 
-So, good job, here is your flag: flag{CLlg5NKHOorBEhf7PyeMKcYbA43vjre9QojF}
+So, good job, here is your flag: flag{3ZZ67FTWSKaVgdv5E5hzAhJ6C8eDlwY5l057}
 
 Source: [Wikipedia]

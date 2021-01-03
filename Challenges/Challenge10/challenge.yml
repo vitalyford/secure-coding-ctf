@@ -5,11 +5,13 @@ description: <Team IP>:8010
 value: 20
 type: standard
 flags:
-- flag{pEqwElHJkhN6kUImISK004hyeXF5c5LCR9gv}
+- flag{XqeaCrdblEzbAQ0GObAEo6TpdDd4MYkrMDdJ}
 hints:
-- This one is similar to Real ID 1 except the programmer decided to hide the real
-  id values behind some sort of hash... i wonder what it could be...
-- https://passwordsgenerator.net/md5-hash-generator/
+- content: This one is similar to Real ID 1 except the programmer decided to hide
+    the real id values behind some sort of hash... i wonder what it could be...
+  cost: 1
+- content: https://passwordsgenerator.net/md5-hash-generator/
+  cost: 1
 tags:
 - web
 files:

@@ -30,20 +30,20 @@
     <!-- Navigation -->
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top">
     <div class="container">
-      <a class="navbar-brand" href="index.html">Break it until you make it</a>
+      <a class="navbar-brand" href="index.html"><img style="width: 100px"src="https://www.cyberstudents.org/wp-content/uploads/2016/01/NCC-NCSA-Logo-1.svg" alt=""></a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link" href="https://twitter.com/WiCySorg" target="_blank">Twitter</a>
+              <a class="nav-link" href="https://twitter.com/CyberStudents" target="_blank">Twitter</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="https://www.instagram.com/wicys/" target="_blank">Instagram</a>
+              <a class="nav-link" href="https://www.linkedin.com/groups/8477102//" target="_blank">Linkedin</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="https://www.facebook.com/wicys" target="_blank">Facebook</a>
+              <a class="nav-link" href="https://www.facebook.com/CyberStudents.org/s" target="_blank">Facebook</a>
             </li>
           </ul>
         </div>
@@ -53,8 +53,8 @@
     <header class="masthead text-center" style="padding-top: 6.5em; padding-bottom: 2.5em;">
       <div class="masthead-content">
         <div class="container">
-          <h1 class="masthead-heading mb-0" style="color: #231F20;">Steal The Steel CTF</h1>
-          <h2 class="masthead-subheading mb-0">Will Rock Your Socks Off</h2>
+          <h1 class="masthead-heading mb-0" style="color: #231F20;">Secure coding CTF - The Winter Challenge</h1>
+          <!-- <h2 class="masthead-subheading mb-0"></h2> -->
         </div>
       </div>
     </header>

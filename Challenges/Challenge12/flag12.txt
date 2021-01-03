@@ -8,6 +8,6 @@ Panther Hollow Lake, a recreation spot, lies just west of the bridge.
 
 Interestingly enough, this bug shows how heartbleed (http://heartbleed.com/) was exploited in 2014. If you tried to request more bytes from the server than is allowed, the server would actually return you the data from the memory that you were not supposed to see. Watch out for the boundaries of the memory that you allocate and that the users request.
 
-So, good job, here is your flag: flag{B8zA2K3GX5eYS3LBZ8COwRGfyqzKPBO5Tvny}
+So, good job, here is your flag: flag{N8C7JZ6xRWQyTW5tkaF1PXWLGDgVNPvGFNVP}
 
 Source: [Wikipedia]

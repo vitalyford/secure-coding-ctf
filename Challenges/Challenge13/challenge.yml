@@ -5,13 +5,14 @@ description: <Team IP>:7003
 value: 20
 type: standard
 flags:
-- flag{Z9HyydLQKeqDv0iES6fbWgHIGd06RF4zeJUS}
+- flag{jJEkYqoR4ZJZZ96VxLEDgyAZC06K9U9KEQIA}
 hints:
-- Username trimming on save operation. This bug has previously been seen in database
-  management systems. When the database saves the username, it trims the username,
-  which causes the override of the previously created user if the usernames match.So,
-  you may just need to append something to the username "admin" when you register
-  a new user.
+- content: Username trimming on save operation. This bug has previously been seen
+    in database management systems. When the database saves the username, it trims
+    the username, which causes the override of the previously created user if the
+    usernames match.So, you may just need to append something to the username "admin"
+    when you register a new user.
+  cost: 1
 tags:
 - java
 files:

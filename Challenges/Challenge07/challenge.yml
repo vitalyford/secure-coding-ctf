@@ -5,7 +5,7 @@ description: <Team IP>:8007
 value: 30
 type: standard
 flags:
-- flag{5IxU3I94WE3ov7mmYlUo4NbP11t50CE9MYnY}
+- flag{kASAOsE1nYEZ9GlGHpYaax7LBejYWo6oScBV}
 hints:
 - This challenge improves on the previous variation by checking that the file is an
   image...

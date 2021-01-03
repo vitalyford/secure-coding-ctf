@@ -58,5 +58,5 @@ function c(){
 }
 
 
-function answer(){return "flag{Uf3pLg2SNQva30HzCxE1PItwQJJ5MXNtshXU}
+function answer(){return "flag{XWneUJLoCM0aINhyq1SIe3GcEf4DfPBosqgB}
 ?>

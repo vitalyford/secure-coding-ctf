@@ -2,6 +2,6 @@ Rachel Carson Bridge, also known as the Ninth Street Bridge, spans the Allegheny
 
 User input validation must be the first thought that comes to mind when you process user's input anywhere in your code. HomeMatic automation system had a vulnerability in 2018 that allows arbitrary file overwrite (https://atomic111.github.io/article/homematic-ccu2-filewrite) via an easily-crafted JSON API request.
 
-So, good job, here is your flag: flag{6RFr8nP59oBSBBUwaREf4rIRtVLfZBiIFzVK} 
+So, good job, here is your flag: flag{cznpIzSIRkk5YC4Dol7UYCSCgzShQvtUNnMe} 
 
 Source: [Wikipedia]

@@ -2,4 +2,4 @@ The Liberty Bridge, completed in 1928, connects downtown Pittsburgh, Pennsylvani
 
 Revealing sensitive data by making logs publicly available. Never do this in production, pretty dangerous information to give out to everyone.
 
-Here is your flag: flag{9OUHwlwcaVoQcqgy7UdVXcHQoDYpv179tNKV}
+Here is your flag: flag{AB0sZ05KlhZs0CW8M9SJcoXvN4FB7t1NgRSd}

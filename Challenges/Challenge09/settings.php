@@ -1,3 +1,3 @@
 <?php
-$flag="flag{tSmaGbmzAoU6WWkLwoOVsxKwLLbWPnn4N1nN};
+$flag="flag{nbvbTG3w4d8DR14Kybna5zzR6d2L9qcAPtHK}";
 ?>

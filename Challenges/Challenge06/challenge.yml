@@ -15,4 +15,4 @@ tags:
 files:
 - ./index.php
 - ./gallery.php
-state: visible
+state: hidden
