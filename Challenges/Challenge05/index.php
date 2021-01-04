@@ -18,7 +18,7 @@
     <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="https://bootswatch.com/4/lumen/bootstrap.css" rel="stylesheet">
+    <link href="https://hackerthemes.com/bootstrap-themes/demo/theme-machine/neon-glow/css/bootstrap4-neon-glow.min.css" rel="stylesheet">
 
     <!-- Font awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
@@ -53,7 +53,7 @@
     <header class="masthead text-center" style="padding-top: 6.5em; padding-bottom: 2.5em;">
       <div class="masthead-content">
         <div class="container">
-          <h1 class="masthead-heading mb-0" style="color: #231F20;">Secure coding CTF - The Winter Challenge</h1>
+          <h1 class="masthead-heading mb-0" style="color: #231F20;">Secure Coding CTF - The Winter Challenge</h1>
           <!-- <h2 class="masthead-subheading mb-0"></h2> -->
         </div>
       </div>
