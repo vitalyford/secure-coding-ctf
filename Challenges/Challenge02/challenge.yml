@@ -6,6 +6,7 @@ value: 30
 type: standard
 flags:
 - flag{S0d7zWV7SqJWzOqQ5gvuPVP2VT2ZlhVOen8d}
+hints:
 - content: Check the source for any debug or hidden code ;)
   cost: 1
 - content: Try pinging a domain that doesn't exist... Notice how all stderr is redirected
@@ -13,7 +14,7 @@ flags:
   cost: 1
 - content: '"<?php phpinfo() ?>" > a.php  remove all newlines'
   cost: 1
-hints: null
+
 tags:
 - php
 files:

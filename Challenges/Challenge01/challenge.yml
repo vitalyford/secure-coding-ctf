@@ -17,7 +17,7 @@ hints:
   cost: 1
 - content: So cat didn't work huh? There are plenty of other commands that you can
     use to bypass this restriction.... try head, tail, or cp
-  cost: 2
+  cost: 1
 tags:
 - php
 files:
