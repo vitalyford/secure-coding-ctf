@@ -1,3 +1,2 @@
-<?php function answer(){echo "flag{cezviH4by8RSrYAe0KcLiKnB1FWYBB85xrot}"
-//12002011201
+<?php function answer(){echo "flag{cezviH4by8RSrYAe0KcLiKnB1FWYBB85xrot}";}
 ?>
