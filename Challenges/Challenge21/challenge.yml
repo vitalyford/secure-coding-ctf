@@ -9,8 +9,7 @@ flags:
 hints:
 - content: Notice that the pass variable is allocated only 10 bits of memory
   cost: 1
-- content: The strcpy is a a very dangerous method to use because it allows what vulnerability?(Free
-    hint you can google it)
+- content: The strcpy is a a very dangerous method to use because it allows what vulnerability?(may the google be with you)
   cost: 1
 tags:
 - php, c++
