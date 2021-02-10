@@ -8,10 +8,10 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Steal The Steel CTF</title>
+    <title>Secure Coding CTF</title>
 
     <!-- Bootstrap core CSS -->
-    <<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom fonts for this template -->
     <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
@@ -56,7 +56,7 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
       <div class="container">
-        <a class="navbar-brand" href="/">Break it until you make it</a>
+        <a class="navbar-brand" href="/">Break it until you make IT</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -99,7 +99,7 @@
           </div>
           <div class="col-lg-8 order-lg-1">
             <div class="p-5">
-              <h2 class="display-4" style="color: #812990;">Client Destoryer</h2>
+              <h2 class="display-4" style="color: #812990;">Client Destroyer</h2>
               <p>To receive the flag you have to enter correct password</p>
               <form method="POST" onsubmit="return validate()">
                 <div class="form-group">
