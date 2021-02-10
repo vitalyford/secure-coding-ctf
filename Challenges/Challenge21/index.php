@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Steal The Steel CTF</title>
+    <title>Secure Coding CTF</title>
 
     <!-- Bootstrap core CSS -->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
@@ -102,10 +102,10 @@
               This is my storage of sensitive data<br/>
               Only way to retrieve it is to enter the correct password</br>
               <form method="get" class="form-inline">
-                <div class="form-group mb-2">
+                <div class="form-group mb-2 mt-4">
                   <input class="form-control" type="text" name='password'></input>
                 </div>
-                <div class="form-group mx-sm-3 mb-2">
+                <div class="form-group mx-sm-3 mb-2 mt-4">
                   <button class="btn btn-primary" type=submit>Retrieve</button>
                 </div>
               </form>

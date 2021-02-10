@@ -4,7 +4,7 @@ WORKDIR "/var/www/html"
 
 
 COPY . /var/www/html/
-RUN apt-get update && apt-get install -y iputils-ping
+RUN apt-get update && apt-get install -y iputils-ping curl
 
 RUN mv "$PHP_INI_DIR/php.ini-production" "$PHP_INI_DIR/php.ini" \
     && sed -i 's/^Listen 80/ Listen 8001/g' /etc/apache2/ports.conf \

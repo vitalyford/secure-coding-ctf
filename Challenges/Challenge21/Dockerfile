@@ -4,7 +4,7 @@ WORKDIR "/var/www/html/"
 
 COPY . /var/www/html/
 
-RUN apt-get update -y && apt-get install build-essential -y 
+RUN apt-get update -y && apt-get install build-essential curl -y 
 RUN g++ main.cpp main.h -o main -fno-stack-protector
 
 
@@ -18,6 +18,6 @@ RUN mv "$PHP_INI_DIR/php.ini-production" "$PHP_INI_DIR/php.ini" \
     && chmod 000 main.h \
     && chmod -R 000 /tmp \
     && useradd -G www-data ctf_warrior
-EXPOSE 8001
+EXPOSE 8006
 USER ctf_warrior
 
