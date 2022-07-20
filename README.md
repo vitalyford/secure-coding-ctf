@@ -1,6 +1,6 @@
-# Steal The Steel CTF
+# Secure Coding CTF
 
-*Created by Dr. Vitaly Ford, Amela Gjishti, Konstantin Menako, and Daniel Tyler for the Women In CyberSecurity (WiCyS) 2019 conference.*
+*Created by Dr. Vitaly Ford, Konstantin Menako, Alexandr Chebatarev, Amela Gjishti, and Daniel Tyler.*
 
 More documentation in the works, please check back.
 
